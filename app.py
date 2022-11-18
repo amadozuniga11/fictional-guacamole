@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import render_template
+from flask import Flask, render_template
 app = Flask(__name__)
 
 # Function to read in details for page
