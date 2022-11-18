@@ -1,0 +1,4 @@
+Hi, my name Amado Zuniga
+I'm currently learning Python CSCI-3329
+I am currently a student at UTRGV
+I'm interested in learning about Game Development 
