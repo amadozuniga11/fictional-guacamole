@@ -7,15 +7,16 @@ def readDetails(filepath):
         return [line for line in f]
 
 
+
 @app.route('/')
 def homePage():
     name = "Amado Zuniga"
     details = readDetails('static/details.txt')
     return render_template("base.html", name = name, aboutMe = details)
 
-@app.route('/user/<name>')
-def greet(name): 
-    return f'<p>Hello, {name}!</p>'
-
+@app.route('/profile')
+def profile(): 
+    profile_details = readDetails('static/profileDetails.txt')
+    return render_template('profile.html',aboutMe=profile_details)
 if __name__ == '__main__': 
     app.run(debug=True)

@@ -7,12 +7,13 @@ body {
   margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
+  background-image: ('static/watchdogs.jpg');
 }
 
-/* This is used to make profile picture cropped as a circle */
+/* This is used to make profile picture cropped as a circle 
 img {
   border-radius: 50%;
-}
+}*/
 
 /* Formatting for different header levels, if you need them! */
 h1 {
